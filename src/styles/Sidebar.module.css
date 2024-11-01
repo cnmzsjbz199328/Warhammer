@@ -1,0 +1,23 @@
+.sidebar {
+  @apply w-64 shrink-0;
+}
+
+.nav {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+.title {
+  @apply mb-4 text-lg font-semibold text-primary-800;
+}
+
+.list {
+  @apply space-y-2;
+}
+
+.link {
+  @apply block rounded-md px-3 py-2 text-sm text-primary-600 hover:bg-primary-50;
+}
+
+.activeLink {
+  @apply bg-primary-100 text-primary-800;
+}

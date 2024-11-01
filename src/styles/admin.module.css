@@ -1,0 +1,23 @@
+.container {
+  @apply min-h-screen bg-warhammer-50;
+}
+
+.main {
+  @apply mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-8;
+}
+
+.pageTitle {
+  @apply text-3xl font-bold text-warhammer-800 mb-8;
+}
+
+.message {
+  @apply mb-4 p-4 rounded-md bg-warhammer-100 text-warhammer-800;
+}
+
+.formContainer {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.formTitle {
+  @apply text-xl font-semibold text-warhammer-800 mb-4;
+}

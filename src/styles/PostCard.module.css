@@ -1,0 +1,19 @@
+.card {
+  @apply overflow-hidden rounded-lg bg-white shadow-md transition-shadow hover:shadow-lg;
+}
+
+.content {
+  @apply p-6;
+}
+
+.title {
+  @apply mb-2 text-xl font-semibold text-primary-800;
+}
+
+.meta {
+  @apply mb-4 text-sm text-primary-500;
+}
+
+.excerpt {
+  @apply prose prose-sm line-clamp-3 text-primary-700;
+}

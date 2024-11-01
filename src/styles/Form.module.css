@@ -1,0 +1,23 @@
+.form {
+  @apply space-y-4;
+}
+
+.fieldGroup {
+  @apply space-y-1;
+}
+
+.label {
+  @apply block text-sm font-medium text-warhammer-700;
+}
+
+.input {
+  @apply mt-1 block w-full rounded-md border-warhammer-300 shadow-sm focus:border-warhammer-500 focus:ring-warhammer-500 sm:text-sm;
+}
+
+.error {
+  @apply mt-1 text-sm text-red-600;
+}
+
+.button {
+  @apply w-full rounded-md bg-warhammer-600 px-4 py-2 text-white hover:bg-warhammer-700 focus:outline-none focus:ring-2 focus:ring-warhammer-500 focus:ring-offset-2;
+}

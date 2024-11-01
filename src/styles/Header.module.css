@@ -1,0 +1,27 @@
+.header {
+  @apply bg-primary-800 text-white;
+}
+
+.nav {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.container {
+  @apply flex h-16 items-center justify-between;
+}
+
+.logo {
+  @apply text-xl font-bold text-white hover:text-primary-200;
+}
+
+.menu {
+  @apply flex items-center space-x-4;
+}
+
+.link {
+  @apply text-white hover:text-primary-200;
+}
+
+.button {
+  @apply text-white hover:text-primary-200;
+}
